@@ -135,6 +135,7 @@ function reset(){
    localStorage["HighestScore"]=score; 
   }
   console.log(localStorage["HighestScore"]);
+  text("Highest Score: "+HighestScore,100,100);
   score = 0;
   obstaclesGroup.destroyEach();
   cloudsGroup.destroyEach();
